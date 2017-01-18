@@ -8,22 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		1145ED861E2D15B400E7EC25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1145ED851E2D15B400E7EC25 /* AppDelegate.swift */; };
-		1145ED881E2D15B400E7EC25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1145ED871E2D15B400E7EC25 /* ViewController.swift */; };
+		1145ED881E2D15B400E7EC25 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1145ED871E2D15B400E7EC25 /* MainVC.swift */; };
 		1145ED8B1E2D15B400E7EC25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1145ED891E2D15B400E7EC25 /* Main.storyboard */; };
 		1145ED8E1E2D15B400E7EC25 /* DreamList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1145ED8C1E2D15B400E7EC25 /* DreamList.xcdatamodeld */; };
 		1145ED901E2D15B400E7EC25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1145ED8F1E2D15B400E7EC25 /* Assets.xcassets */; };
 		1145ED931E2D15B400E7EC25 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1145ED911E2D15B400E7EC25 /* LaunchScreen.storyboard */; };
+		1145EDB41E2D360800E7EC25 /* Image+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1145EDAC1E2D360800E7EC25 /* Image+CoreDataClass.swift */; };
+		1145EDB51E2D360800E7EC25 /* Image+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1145EDAD1E2D360800E7EC25 /* Image+CoreDataProperties.swift */; };
+		1145EDB61E2D360800E7EC25 /* Item+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1145EDAE1E2D360800E7EC25 /* Item+CoreDataClass.swift */; };
+		1145EDB71E2D360800E7EC25 /* Item+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1145EDAF1E2D360800E7EC25 /* Item+CoreDataProperties.swift */; };
+		1145EDB81E2D360800E7EC25 /* Store+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1145EDB01E2D360800E7EC25 /* Store+CoreDataClass.swift */; };
+		1145EDB91E2D360800E7EC25 /* Store+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1145EDB11E2D360800E7EC25 /* Store+CoreDataProperties.swift */; };
+		1145EDBA1E2D360800E7EC25 /* ItemType+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1145EDB21E2D360800E7EC25 /* ItemType+CoreDataClass.swift */; };
+		1145EDBB1E2D360800E7EC25 /* ItemType+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1145EDB31E2D360800E7EC25 /* ItemType+CoreDataProperties.swift */; };
+		1145EDBE1E2DF69600E7EC25 /* MaterialView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1145EDBD1E2DF69600E7EC25 /* MaterialView.swift */; };
+		1145EDC01E2DFB1100E7EC25 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1145EDBF1E2DFB1100E7EC25 /* ItemCell.swift */; };
+		1145EDC31E2E3F8600E7EC25 /* ItemDetailsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1145EDC21E2E3F8600E7EC25 /* ItemDetailsVC.swift */; };
+		1145EDC51E2E4DF200E7EC25 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1145EDC41E2E4DF200E7EC25 /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1145ED821E2D15B400E7EC25 /* DreamList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DreamList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1145ED851E2D15B400E7EC25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1145ED871E2D15B400E7EC25 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1145ED871E2D15B400E7EC25 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		1145ED8A1E2D15B400E7EC25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1145ED8D1E2D15B400E7EC25 /* DreamList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DreamList.xcdatamodel; sourceTree = "<group>"; };
 		1145ED8F1E2D15B400E7EC25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1145ED921E2D15B400E7EC25 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1145ED941E2D15B400E7EC25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1145EDAC1E2D360800E7EC25 /* Image+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1145EDAD1E2D360800E7EC25 /* Image+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Image+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1145EDAE1E2D360800E7EC25 /* Item+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1145EDAF1E2D360800E7EC25 /* Item+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Item+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1145EDB01E2D360800E7EC25 /* Store+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1145EDB11E2D360800E7EC25 /* Store+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Store+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1145EDB21E2D360800E7EC25 /* ItemType+CoreDataClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataClass.swift"; sourceTree = "<group>"; };
+		1145EDB31E2D360800E7EC25 /* ItemType+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ItemType+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		1145EDBD1E2DF69600E7EC25 /* MaterialView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MaterialView.swift; sourceTree = "<group>"; };
+		1145EDBF1E2DFB1100E7EC25 /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		1145EDC21E2E3F8600E7EC25 /* ItemDetailsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemDetailsVC.swift; sourceTree = "<group>"; };
+		1145EDC41E2E4DF200E7EC25 /* CustomTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,8 +80,10 @@
 		1145ED841E2D15B400E7EC25 /* DreamList */ = {
 			isa = PBXGroup;
 			children = (
+				1145EDAA1E2D1E9C00E7EC25 /* Model */,
+				1145EDBC1E2DF67300E7EC25 /* View */,
+				1145EDC11E2E3F1100E7EC25 /* Controller */,
 				1145ED851E2D15B400E7EC25 /* AppDelegate.swift */,
-				1145ED871E2D15B400E7EC25 /* ViewController.swift */,
 				1145ED891E2D15B400E7EC25 /* Main.storyboard */,
 				1145ED8F1E2D15B400E7EC25 /* Assets.xcassets */,
 				1145ED911E2D15B400E7EC25 /* LaunchScreen.storyboard */,
@@ -65,6 +91,48 @@
 				1145ED8C1E2D15B400E7EC25 /* DreamList.xcdatamodeld */,
 			);
 			path = DreamList;
+			sourceTree = "<group>";
+		};
+		1145EDAA1E2D1E9C00E7EC25 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1145EDAC1E2D360800E7EC25 /* Image+CoreDataClass.swift */,
+				1145EDAE1E2D360800E7EC25 /* Item+CoreDataClass.swift */,
+				1145EDB01E2D360800E7EC25 /* Store+CoreDataClass.swift */,
+				1145EDB21E2D360800E7EC25 /* ItemType+CoreDataClass.swift */,
+				1145EDAB1E2D1EA200E7EC25 /* Generated */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		1145EDAB1E2D1EA200E7EC25 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				1145EDAD1E2D360800E7EC25 /* Image+CoreDataProperties.swift */,
+				1145EDAF1E2D360800E7EC25 /* Item+CoreDataProperties.swift */,
+				1145EDB11E2D360800E7EC25 /* Store+CoreDataProperties.swift */,
+				1145EDB31E2D360800E7EC25 /* ItemType+CoreDataProperties.swift */,
+			);
+			name = Generated;
+			sourceTree = "<group>";
+		};
+		1145EDBC1E2DF67300E7EC25 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1145EDC41E2E4DF200E7EC25 /* CustomTextField.swift */,
+				1145EDBD1E2DF69600E7EC25 /* MaterialView.swift */,
+				1145EDBF1E2DFB1100E7EC25 /* ItemCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		1145EDC11E2E3F1100E7EC25 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1145ED871E2D15B400E7EC25 /* MainVC.swift */,
+				1145EDC21E2E3F8600E7EC25 /* ItemDetailsVC.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,9 +207,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1145ED881E2D15B400E7EC25 /* ViewController.swift in Sources */,
+				1145EDC01E2DFB1100E7EC25 /* ItemCell.swift in Sources */,
+				1145EDB71E2D360800E7EC25 /* Item+CoreDataProperties.swift in Sources */,
+				1145EDB61E2D360800E7EC25 /* Item+CoreDataClass.swift in Sources */,
+				1145EDBA1E2D360800E7EC25 /* ItemType+CoreDataClass.swift in Sources */,
+				1145EDBE1E2DF69600E7EC25 /* MaterialView.swift in Sources */,
+				1145ED881E2D15B400E7EC25 /* MainVC.swift in Sources */,
+				1145EDB51E2D360800E7EC25 /* Image+CoreDataProperties.swift in Sources */,
+				1145EDB91E2D360800E7EC25 /* Store+CoreDataProperties.swift in Sources */,
+				1145EDC31E2E3F8600E7EC25 /* ItemDetailsVC.swift in Sources */,
 				1145ED861E2D15B400E7EC25 /* AppDelegate.swift in Sources */,
+				1145EDBB1E2D360800E7EC25 /* ItemType+CoreDataProperties.swift in Sources */,
+				1145EDB81E2D360800E7EC25 /* Store+CoreDataClass.swift in Sources */,
 				1145ED8E1E2D15B400E7EC25 /* DreamList.xcdatamodeld in Sources */,
+				1145EDB41E2D360800E7EC25 /* Image+CoreDataClass.swift in Sources */,
+				1145EDC51E2E4DF200E7EC25 /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

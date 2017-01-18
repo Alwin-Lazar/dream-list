@@ -91,3 +91,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+// any function in the appDelegate is simply access through ad.(function name)
+// this mainly created now is to access the saveContext()
+let ad = UIApplication.shared.delegate as! AppDelegate
+
+// to access the viewContext
+let context = ad.persistentContainer.viewContext
+
+
+
+
+
+
+
+
+
+
